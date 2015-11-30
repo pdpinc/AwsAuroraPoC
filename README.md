@@ -21,4 +21,3 @@ Will give you a good idea on how to go about connecting everything
 
 [Node MySQL](https://www.npmjs.com/package/mysql)
 documentation on the node-mysql plugin
-g
