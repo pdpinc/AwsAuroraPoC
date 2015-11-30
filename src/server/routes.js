@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
     port: '',//take the port off the end of the endpoint and place it here
     database: ''//specify which DB you are using here
 });
-
+//this is the actual connect call to the DB
 connection.connect(function (err) {
     if (err) {
         console.log('Error connecting to mysql DB');
@@ -44,11 +44,11 @@ function getPeople(req, res, next) {
         if (err) {
             throw err;
         }
-
+        //all these 2 statements do is output to the console the data that was pulled
         console.log('Data received from Db:\n');
         console.log(rows);
     });
-
+    //closes the connection to the db
     connection.end();
 
 }
