@@ -16,8 +16,8 @@ The main logic uses the npm package 'mysql' as the node driver to connect to our
 in itself. I have commented to code to give you a better idea of what is happening.
 
 ## More documentation
-[Amazon Aurora](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs.rds.html)
+[Amazon Aurora](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs.rds.html):
 Will give you a good idea on how to go about connecting everything
 
-[Node MySQL](https://www.npmjs.com/package/mysql)
+[Node MySQL](https://www.npmjs.com/package/mysql):
 documentation on the node-mysql plugin
